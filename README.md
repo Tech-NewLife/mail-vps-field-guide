@@ -1,4 +1,4 @@
-# Independent Mail VPS Handbook
+# Mail VPS Field Guide
 
 A practical shortlist of infrastructure providers for people who intend to run
 their own SMTP server.
@@ -38,7 +38,7 @@ for a personal mailbox may be unsuitable for bulk or transactional traffic.
 
 | Provider | Outbound SMTP starting point | PTR / reverse DNS | Footprint | Operator note |
 | --- | --- | --- | --- | --- |
-| [InterServer](https://www.interserver.net/) | Blocked; request after an established account period | Support ticket | United States | A valid hostname, correctly configured rDNS, and a clear explanation of the intended email usage and anti-abuse measures.|
+| [InterServer](https://www.interserver.net/) | Blocked;unblocked upon request period | Support ticket | United States | Approval considers the intended email usage, anti-abuse measures, hostname, and reverse DNS configuration.|
 | [Vultr](https://www.vultr.com/) | Blocked; support request reviewed case by case | Control panel or CLI | Global | Suitable only after approval; authenticated relay remains the fallback |
 | [DigitalOcean](https://www.digitalocean.com/) | Restricted for new accounts | Control panel | Global | Confirm eligibility before choosing it for direct delivery |
 | [Akamai Cloud / Linode](https://www.linode.com/) | Account-dependent controls | Control panel | Global | Check current outbound-mail restrictions for the account and region |
@@ -95,9 +95,7 @@ they do not promise SMTP approval or inbox placement.
 
 ### Small Personal Server
 
-Start with **InterServer** when a US location is suitable and waiting through
-the account-age requirement is acceptable. Its slice includes comparatively
-generous memory and storage at the listed entry price. **IONOS** is the
+Consider **InterServer** when a US location is suitable and the account-age requirement is acceptable.. Its slice includes comparatively generous memory and storage at the listed entry price. **IONOS** is the
 alternative when a longer-term plan and phone-assisted SMTP approval are
 acceptable.
 
@@ -237,3 +235,11 @@ be added.
 Changes to SMTP access are more important than small price changes. When a
 policy cannot be verified, mark it as “confirm with provider” and include the
 date and region tested in the pull request.
+
+## Contributions Welcome
+
+Pull requests are welcome. If you notice outdated information, missing providers, or incorrect details, please submit an update with links to official sources.
+
+￼
+￼
+￼
