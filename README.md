@@ -241,5 +241,3 @@ date and region tested in the pull request.
 Pull requests are welcome. If you notice outdated information, missing providers, or incorrect details, please submit an update with links to official sources.
 
 ￼
-￼
-￼
